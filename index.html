@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Image Gallery</h1>
+        <p>Click on an image to view it in full size.</p>
+    </header>
+
+    <main class="gallery">
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1015/600/400" alt="Mountain landscape">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1016/600/400" alt="Beautiful mountain view">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1025/600/400" alt="Dog outdoors">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1035/600/400" alt="River surrounded by mountains">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1043/600/400" alt="Forest landscape">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1069/600/400" alt="Green hills and trees">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1074/600/400" alt="Lake surrounded by trees">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://picsum.photos/id/1084/600/400" alt="Ocean waves and beach">
+        </div>
+    </main>
+
+    <!-- Lightbox / Image Preview -->
+    <div class="modal" id="imageModal">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <img id="modalImage" src="" alt="Large image preview">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
